@@ -126,4 +126,7 @@ EMAIL_HOST_PASSWORD = 'zfuzhbblejikrkzg'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+STRIPE_PUSHABLE_KEY = 'pk_test_51NT7HvCXDot4hCcjea2ZxLsuzjd1dXeF2xLUXbHTqCAIjD8iU7SX6KTPHG4YmGvIBS7ZiYiyWqKS63RKd5ls09sy0093xUqFOz'
+STRIPE_SECRET_KEY = 'sk_test_51NT7HvCXDot4hCcjBJniIw2L3leBsM5HeZlISBVPmLh4A05XeWswC0ZIl9MDvW6lQLWM0JNaRKlQnqsck9zxjNdi00l99imXkm'
